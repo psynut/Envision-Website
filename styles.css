@@ -1,0 +1,262 @@
+/*
+font-family: 'Average Sans', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Figtree', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Ubuntu', sans-serif;*/
+/*
+#FDECEF  - Lavender Blush
+#EBEBEB  - Platinum
+#000000  - Black
+#378156  - Amazon
+#BF3648  - French Raspberry
+*/
+head {
+  display: none;
+}
+
+body {
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+  background-color: #EBEBEB;
+  ;
+}
+
+footer {
+  background-color: #EBEBEB;
+  padding: 1%;
+}
+
+h1 {
+  font-size: 3.5em;
+  padding: -2.25% 0 2%;
+}
+
+h2, h3 {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  margin-top: 3%;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+p {
+  text-align: left;
+}
+
+.training>ul {
+  list-style-image: url();
+}
+
+#Home h1 {
+
+}
+
+#Home h3 {
+  padding: 7% 5%;
+  margin: 8% 0;
+  font-size: 3em;
+  color: #BF3648;
+  text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+#Home {
+  padding: 2% 0 0;
+  box-shadow: 0 2px 5px #176136;
+  margin-bottom: 8px;
+}
+
+#About {
+  padding: 5% 5% 2% 5%;
+  background-color: #f2faf6;
+  box-shadow: 0 2px 5px #176136;
+    /*background-image: url('images/logoback.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 200%;
+  background-position: top;*/
+  margin-bottom: 8px;
+}
+
+#Location {
+  padding: 10% 3% 10%;
+  background-image: url('images/carpetbg.jpg');
+  box-shadow: 0 2px 5px #176136;
+}
+
+#Location h4 {
+  font-size: 1.3em;
+}
+
+#Sessions {
+  background-color: #f2faf6;
+}
+
+#Sessions h4 {
+  padding-top: 35px;
+}
+
+#Telehealth img{
+  width: 400px;
+  margin: 20% auto;
+}
+
+#Telehealth .column{
+
+}
+
+#Insurance h4 {
+  padding-top: 35px;
+  margin-top: 0;
+  color: #EBEBEB;
+}
+
+#Insurance {
+  background-image: url('images/NightUmbrella.jpg');
+  0 background-repeat: no-repeat;
+  background-position: left;
+  background-size: 150%;
+}
+
+.navbar {
+  font-family: Figtree, sans-sans-serif;
+  font-weight: 600;
+  background-color: #EBEBEB;
+  box-shadow: 0 2px 5px #176136;
+}
+
+.navbar .d-lg-none {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.75em;
+  font-weight: 600;
+}
+
+.top-banner-photo {
+  background-image: url('images/TreeGround.jpg');
+  background-size: cover;
+  height: 500px;
+  padding-top: 60px;
+  padding-bottom: 0;
+  box-shadow: 0 2px 5px #176136;
+}
+
+.call-to-action-large {
+  margin: auto 5%;
+  font-size: 2.5em;
+  color: white;
+  /*text-shadow: 1px 1px 2px black, -1px -1px 2px black;*/
+  letter-spacing: .75em;
+}
+
+.call-to-action-medium {
+  margin: auto 15%;
+  font-size: 2.5em;
+  color: #378156;
+  /*text-shadow: 1px 1px 2px black, -1px -1px 2px black;*/
+  text-align: left
+}
+
+.call-to-action-medium .bi {
+  font-size: 1em;
+  color: white;
+  text-shadow: 0 1px black, 0 -1px black, 1px 0 black, -1px 0 black;
+}
+
+.portrait {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.training {
+  text-align: left;
+  max-width: 450px;
+  margin: auto;
+}
+
+.training>ul {
+  list-style-type: none;
+}
+
+.training li {
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.certifaction {
+  position: relative;
+  bottom: .75em;
+  font-size: .5em;
+  /*font-family: 'Figtree', sans-serif;*/
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+}
+
+.training li::before {
+  transform: rotate(-90deg);
+  content: 'workspace_premium';
+  font-family: 'Material Icons';
+}
+
+.envisionname {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 800;
+  letter-spacing: -.1em
+}
+
+.frame {
+  margin: 0% 5% 5% 15%;
+  padding: 10px;
+  height: 230px;
+  width: 300px;
+  background-color: #378156;
+  align-self: center;
+}
+
+.tour-video {
+  /*  padding: 2% 0 0 0; */
+}
+
+.tele-text {
+  padding: 50px 100px;
+  align-items: center;
+}
+
+.insurance-text {
+  padding: 50px 100px;
+  align-items: center;
+}
+
+.tele-picture {}
+
+.textbox {
+  background-color: #EBEBEB;
+  padding: 1.2em;
+  border-radius: 5px;
+}
+
+.textbox-border {
+  background-color: #EBEBEB;
+  padding: 1.2em;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.paypal {
+  font-family: 'Average Sans', sans-serif;
+  font-style: italic;
+}
+
+.zelle {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
