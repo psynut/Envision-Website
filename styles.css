@@ -76,6 +76,11 @@ p {
   margin-bottom: 8px;
 }
 
+#Home a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
 #About {
   padding: 5% 5% 2% 5%;
   background-color: #f2faf6;
@@ -106,13 +111,8 @@ p {
   padding-top: 35px;
 }
 
-#Telehealth img{
-  width: 400px;
-  margin: 20% auto;
-}
-
-#Telehealth .column{
-
+#Telehealth p{
+  margin: 10% auto;
 }
 
 #Insurance h4 {
@@ -222,21 +222,37 @@ p {
   align-self: center;
 }
 
+.tframe{
+  width: 75%;
+  vertical-align: middle;
+  margin-top: -10%;
+  margin-bottom: -10%;
+
+  /*text-align: center;
+  display: table-cell;*/
+}
+
+.tframe img{
+  max-width: 100%;
+  max-height: 100%;
+  display:block;
+  margin: 20%;
+}
+
 .tour-video {
   /*  padding: 2% 0 0 0; */
 }
 
 .tele-text {
   padding: 50px 100px;
-  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .insurance-text {
   padding: 50px 100px;
   align-items: center;
 }
-
-.tele-picture {}
 
 .textbox {
   background-color: #EBEBEB;
