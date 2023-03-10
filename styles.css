@@ -85,16 +85,11 @@ p {
   padding: 5% 5% 2% 5%;
   background-color: #f2faf6;
   box-shadow: 0 2px 5px #176136;
-    /*background-image: url('images/logoback.png');
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 200%;
-  background-position: top;*/
   margin-bottom: 8px;
 }
 
 #Location {
-  padding: 10% 3% 10%;
+  padding: 7% 3% 7%;
   background-image: url('images/carpetbg.jpg');
   box-shadow: 0 2px 5px #176136;
 }
@@ -216,17 +211,16 @@ p {
 
 .frame {
   margin: 0% 5% 5% 15%;
-  padding: 10px;
+  padding: 8px;
   height: 230px;
   width: 300px;
+  border: 2px solid #378156;
+  border-radius: 5px;
   background-color: #378156;
-  align-self: center;
 }
 
 .tele-text {
   padding: 0 100px;
-  /*margin-top: 5%;*/
-  /*margin-bottom: 5%;*/
 }
 
 .tele-pic{
