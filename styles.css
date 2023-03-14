@@ -30,7 +30,7 @@ footer {
 
 h1 {
   font-size: 3.5em;
-  padding: -2.25% 0 2%;
+  padding: 2% 0 0;
 }
 
 h2, h3 {
@@ -71,10 +71,11 @@ p {
 }
 
 #Home {
-  padding: 2% 0 0;
+  padding: 0% 0 0;
   box-shadow: 0 2px 5px #176136;
   margin-bottom: 8px;
 }
+
 
 #Home a{
   text-decoration: inherit;
@@ -135,6 +136,27 @@ p {
   font-family: 'Comfortaa', cursive;
   font-size: 1.75em;
   font-weight: 600;
+}
+
+.logocontainer{
+  position: relative;
+  width:100px;
+  height:81.5px;
+}
+
+.laureltilt{
+  width: 100px;
+  position: absolute;
+  left:20px;
+  top:20px;
+
+}
+
+.hearttilt{
+  width: 100px;
+  position: absolute;
+  left:20px;
+  top:20px;
 }
 
 .top-banner-photo {
