@@ -118,11 +118,18 @@ p {
   color: #EBEBEB;
 }
 
+#Insurance .textbox{
+  position:relative;
+  width: 100%;
+  z-index: 1;
+}
+
 #Insurance {
   background-image: url('images/NightUmbrella.jpg');
   background-repeat: no-repeat;
   background-position: left;
   background-size: 150%;
+  overflow: hidden;
 }
 
 .navbar {
@@ -281,6 +288,18 @@ p {
 .insurance-text {
   padding: 50px 100px;
   align-items: center;
+}
+
+.comet-panel{
+  position:relative;
+}
+
+.comet-panel img{
+  position: absolute;
+  width: 150%;
+  top:-73.5%;
+  left:0;
+  z-index: 1;
 }
 
 .textbox {
