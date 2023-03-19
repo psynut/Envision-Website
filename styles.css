@@ -199,7 +199,6 @@ p {
   margin: auto 5%;
   font-size: 2.5em;
   color: white;
-  /*text-shadow: 1px 1px 2px black, -1px -1px 2px black;*/
   letter-spacing: .75em;
 }
 
@@ -207,7 +206,6 @@ p {
   margin: auto 15%;
   font-size: 2.5em;
   color: #378156;
-  /*text-shadow: 1px 1px 2px black, -1px -1px 2px black;*/
   text-align: left
 }
 
@@ -241,7 +239,6 @@ p {
   position: relative;
   bottom: .75em;
   font-size: .5em;
-  /*font-family: 'Figtree', sans-serif;*/
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
 }
@@ -275,12 +272,6 @@ p {
 .tele-pic{
   max-width: 80%;
 }
-
-.tour-video {
-  /*  padding: 2% 0 0 0; */
-}
-
-
 
 .card-body{
   margin: 5% auto;
