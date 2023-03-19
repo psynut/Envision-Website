@@ -135,9 +135,6 @@ function animateComet(startLeft, startTop, direction, startTime){
         cometImage.style.left = numToPx(startLeft-(elapsedTime)*horizontalSpeed);
         cometImage.style.top = numToPx(startTop+(.5+elapsedTime**2)*verticalSpeed);
         setTimeout(()=>{animateComet(startLeft, startTop, direction, startTime)},16);
-    }else{
-        //cometImage.width = "40px";
-        //cometImage.height = "20px";
     }
 }
 
@@ -153,9 +150,6 @@ function swapCometImage(index){
     }
 }
 
-//trying to figure out how to correctly adjust umbrellaForeground's top or bottom position after finding adjusting width.
-//Then add a listener for each time the screen dimension changes.
-//matchDivSize();
 setTimeout(matchDivSize, 20);
 function matchDivSize(){
     console.log(cometPanel.getBoundingClientRect().width);
@@ -166,7 +160,3 @@ function matchDivSize(){
 function numToPx(m_Int){
     return m_Int.toString() + "px";
 }
-
-//Maybe think about a little gentle wiggle on the logo on the navbar.
-//Shooting stars on the payment and insurance with an overlay lawer of the umbrella and woman so there's depth.
-//Spinn award logos when moused over?
