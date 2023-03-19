@@ -7,7 +7,7 @@ var heart = document.getElementsByClassName("hearttilt")[0];
 var navbarIcon = document.getElementsByClassName("navbar-logo")[0];
 var title = document.getElementsByClassName("d-lg-inline-block envisionname")[0];
 
-var shootingStarPic = ["images/ShootingStar0.png", "images/ShootingStar1.png", "images/ShootingStar2.png"];
+var shootingStarPic = ["images/ShootingStar0.png", "images/ShootingStar1.png", "images/ShootingStar2.png", "images/ShootingStar3.png", "images/ShootingStar4.png", "images/ShootingStar5.png"];
 var cometPanel = document.getElementsByClassName("comet-panel")[0];
 var cometImage = document.createElement("img");
 cometPanel.appendChild(cometImage);
@@ -121,7 +121,8 @@ function startCometAnimation(){
     cometImage.style.height = "50px";
     cometImage.style.transform = direction ? "scaleX(1)" : "scaleX(-1)";
     animateComet(startLeft, startTop, direction, Date.now()/1000)
-    swapCometImage(0);
+    swapCometImage(Math.floor(Math.random()*2)*3);
+    console.log(Math.floor(Math.random()*2)*3);
 }
 
 function animateComet(startLeft, startTop, direction, startTime){
@@ -141,7 +142,7 @@ function animateComet(startLeft, startTop, direction, startTime){
 }
 
 function swapCometImage(index){
-    if(index < 3){
+    if((index+1) % 3 !== 0){
         cometImage.src = shootingStarPic[index];
         setTimeout(()=>{swapCometImage(index+1)},400)
     }else{
