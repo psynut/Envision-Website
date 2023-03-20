@@ -22,8 +22,6 @@ window.addEventListener("resize", matchDivSize);
 
 startCometAnimation();
 
-
-
 moveNavbarIcon(Date.now()/1000);
 
 function forwardAnimation(){
@@ -122,7 +120,6 @@ function startCometAnimation(){
     cometImage.style.transform = direction ? "scaleX(1)" : "scaleX(-1)";
     animateComet(startLeft, startTop, direction, Date.now()/1000)
     swapCometImage(Math.floor(Math.random()*2)*3);
-    console.log(Math.floor(Math.random()*2)*3);
 }
 
 function animateComet(startLeft, startTop, direction, startTime){
@@ -152,7 +149,6 @@ function swapCometImage(index){
 
 setTimeout(matchDivSize, 20);
 function matchDivSize(){
-    console.log(cometPanel.getBoundingClientRect().width);
     umbrellaForeground.style.width = numToPx(cometPanel.getBoundingClientRect().width*1.5);
     umbrellaForeground.style.top = numToPx((cometPanel.getBoundingClientRect().height-umbrellaForeground.getBoundingClientRect().height)/2);
 }
