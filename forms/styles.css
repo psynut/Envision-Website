@@ -1,0 +1,41 @@
+
+body {
+    text-align: start;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h3 {
+    font-size: 1.0em;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+li::before {
+    content: '\F63D';
+    font-family: 'bootstrap-icons';
+    color: #f40f02;
+}
+
+.envisionname{
+font-family: 'Comfortaa', cursive;
+font-weight: 800;
+letter-spacing: -.1em
+}
+
+.required{
+    font-family:'Nothing You Could Do', cursive;
+    color: red;
+}
+
+.required::before{
+    content: "\2003";
+}
+
+footer {
+    text-align: center;
+    background-color: #EBEBEB;
+    padding: 1%;
+  }
