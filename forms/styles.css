@@ -25,6 +25,14 @@ font-weight: 800;
 letter-spacing: -.1em
 }
 
+.logotilted{
+    width:93px;
+    height:76px;
+    position: relative;
+    left: 18px;
+    bottom: 12px;
+}
+
 .required{
     font-family:'Nothing You Could Do', cursive;
     color: red;
